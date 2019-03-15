@@ -1,0 +1,83 @@
+.cuerpo{
+  background-color: rgba(217, 140, 179, 0.5);
+}
+body{
+  background-image: url(img/fondo_italia.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.cabezera{
+  font-family:  'Poppins', sans-serif;
+  font-style: italic;
+}
+.titulo{
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem
+}
+.body-left{
+
+ border-right: 2px solid #b30047;
+}
+.header{
+  border-bottom: 2px solid #b30047;
+}
+.buscador{
+  margin-top: 10px;
+}
+.botones-busqueda{
+  background-color: rgba(230, 0, 172, 0.5);
+}
+.logo-buscador{
+  background-color: rgba(230, 0, 172, 0.5);
+}
+.imagen-destacado{
+  height: 100px;
+  width: 150px;
+}
+h4, h3, h2{
+    font-family: 'Dancing Script', cursive;
+}
+.menu-historial, p, li {
+  color: white;
+  font-family:  'Poppins', sans-serif;
+
+}
+.menu-historal:hover{
+  color: rgb(230, 0, 172);
+}
+.img-contenido{
+  width: 100%;
+}
+.imagen-comentario{
+  float: left;
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+}
+.seccion-comentario{
+  border: 2px solid white;
+  border-radius: 10px;
+  background: rgb(230, 0, 172);
+}
+.boton-comentario{
+  background: rgb(230, 0, 172);
+  float: right;
+}
+.primer_articulo{
+  border-bottom: 2px dotted white;
+}
+.menu-historial:link{
+  color: white;
+}
+.menu-historial:hover{
+  color:  rgb(230, 0, 172);
+}
+
+@media (min-widtht:800px){
+.body-left{
+  border: none;
+}
+.header{
+  text-align: center;
+}
+}

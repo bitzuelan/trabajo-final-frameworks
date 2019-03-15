@@ -1,0 +1,90 @@
+body{
+  background-image: url(img/pasaporte.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+.logo{
+  margin-top: 30px;
+  float: right;
+  width: 200px;
+  border-radius: 15px;
+}
+.barra-navegacion{
+  height: 200px;
+  background-color: rgba(102, 0, 204, 0.4);
+}
+.slogan{
+  font-size: 2em;
+  height: 150px;
+  padding-top: 70px;
+  padding-right: 100px;
+}
+.botones-grupo{
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.imagen{
+  height: 300px;
+  width: 100%;
+}
+.imagen-larga{
+  height: 600px;
+  width: 100%;
+}
+.iconos{
+  margin-bottom: 15px;
+}
+.articulo{
+margin-left: 60px;
+}
+.imagen-articulo{
+ padding-top: 20px;
+ padding-left: 20px;
+ padding-right: 20px;
+ float: left !important;
+}
+.titulo-articulo{
+  font-size: 3em;
+}
+.foto-autor{
+  width: 50%;
+  height: 170px;
+  display: block;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titulo-autor{
+  text-align: center;
+}
+.grupo-iconos{
+  flex-direction: column;
+ flex-flow: wrap;
+ margin-left: -25%;
+ margin-top: 30%;
+ padding-left: 10px;
+ border-radius: 0 10px 10px 0;
+}
+.grupo-imagen{
+  margin-top: 230px;
+  margin-left: 80px;
+}
+
+.comentario:focus{
+  color:  #0d47a1;
+}
+
+@media (max-width: 600px) {
+  .grupo-imagen, .articulo{
+    margin: auto;
+    margin-top: -20%;
+  }
+  .slogan{
+    font-size: 3em;
+
+  }
+
+}
